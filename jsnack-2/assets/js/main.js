@@ -22,5 +22,5 @@ if (firstWord.length > secondWord.length) {
     //console.log(pari);
     h1Element.innerHTML = "Pari";
 }
-
+//
 
