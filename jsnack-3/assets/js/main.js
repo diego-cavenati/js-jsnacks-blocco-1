@@ -4,11 +4,13 @@
 
 let userWorld;
 
+const h1Element = document.querySelector("h1");
+
 for (let i = 0; i < 11; i++) {
     //const element = array[i];
     userWorld += prompt("inserisci la prima parola");
 }
 
-console.log(userWorld);
+h1Element.innerHTML = `${userWorld}`;
 
 
