@@ -11,12 +11,14 @@ const numero2 = prompt("Inserisci il secondo numero");
 const h1Element = document.querySelector("h1");
 
 if (numero1 > numero2) {
-    console.log(numero1);
-    
+    //console.log(numero1);
+    h1Element.innerHTML = "Numero1";
 } else if (numero1 < numero2) {
-    console.log(numero2);
+    //console.log(numero2);
+    h1Element.innerHTML = "Numero2";
 } else {
-    console.log(pari);
+    //console.log(pari);
+    h1Element.innerHTML = "Pari";
 }
 
 
