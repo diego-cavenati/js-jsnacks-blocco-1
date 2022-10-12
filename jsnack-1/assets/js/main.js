@@ -8,8 +8,10 @@ const numero1 = prompt("inserisci il primo numero");
 // numero 2
 const numero2 = prompt("Inserisci il secondo numero");
 
+// elemento html
 const h1Element = document.querySelector("h1");
 
+//definizione tra maggiore e eminore e pari
 if (numero1 > numero2) {
     //console.log(numero1);
     h1Element.innerHTML = "Numero1";
